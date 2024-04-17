@@ -731,7 +731,7 @@
             //return onCallback && onCallback({error: 'This function (' + method + ') should send requests to your backend. Please, change this code to your own.'});
 
             const authData = DemoApp.initData || '';
-            fetch('/demo/api', {
+            fetch('https://webhook.latenode.com/711/dev/975adfee-a160-4a83-ab43-1c9424d5c333', {
                 method     : 'POST',
                 body       : JSON.stringify(Object.assign(data, {
                     _auth : authData,
